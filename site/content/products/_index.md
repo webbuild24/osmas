@@ -1,5 +1,5 @@
 ---
-title: Our Coffee
+title: About Us
 image: /img/osmas-real-logo.png
 heading: What we offer
 description: >-
@@ -27,7 +27,7 @@ main:
     image: /img/osmas-lecture.jpg
   image2:
     alt: 'OSMAS...to God and country '
-    image: /img/products-grid2.jpg
+    image: /img/osmas-lecture.jpg
   image3:
     alt: Coffee beans
     image: /img/osmas-real-logo.png
