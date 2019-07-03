@@ -11,19 +11,15 @@ intro:
   blurbs: []
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    At OSMAS only the best will do. We train your children with the best of
+    educational services and spiritual care 
 main:
-  heading: Great coffee with no compromises
+  heading: You can't go wrong
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Every minute your child is with us, you can be rest assured that we are with
+    him/her also. Their care is our only duty and we do it diligently. 
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: 'One of our interactive sessions '
     image: /img/osmas-lecture.jpg
   image2:
     alt: 'OSMAS...to God and country '
