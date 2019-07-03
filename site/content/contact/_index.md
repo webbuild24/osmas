@@ -1,6 +1,6 @@
 ---
 title: Contact
-logo: /img/osmas-excussion.jpg
+logo: /img/osmas-real-logo.png
 contact_entries:
   - heading: Location
     text: >-
