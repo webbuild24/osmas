@@ -25,11 +25,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/osmas-real-logo.png
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
+testimonials: []
 full_image: /img/img_20171101_112317.jpg
 pricing:
   heading: Register Now
