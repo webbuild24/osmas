@@ -3,10 +3,8 @@ title: About Us
 image: /img/osmas-real-logo.png
 heading: What we offer
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  OSMAS is one of the leading Educational institutes and we do all our possible
+  best to retain out favourable ranking.
 intro:
   blurbs: []
   heading: What we offer
@@ -22,8 +20,8 @@ main:
     alt: 'One of our interactive sessions '
     image: /img/osmas-lecture.jpg
   image2:
-    alt: 'OSMAS...to God and country '
-    image: /img/osmas-lecture.jpg
+    alt: Health is Wealth
+    image: /img/dsc_3907.jpg
   image3:
     alt: Coffee beans
     image: /img/osmas-real-logo.png
