@@ -1,6 +1,6 @@
 ---
 title: About Us
-image: /img/osmas-real-logo.png
+image: /img/img-20171108-wa0081.jpg
 heading: What we offer
 description: >-
   OSMAS is one of the leading Educational institutes and we do all our possible
