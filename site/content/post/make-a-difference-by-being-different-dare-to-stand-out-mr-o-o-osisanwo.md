@@ -133,89 +133,163 @@ BELLO-ORO JOHN
 
 Time will fail me to tell of Ogunlami Titilayo, the rugged pharmacist who is presently pulling her weight in the University of Ibadan with a CGPA of 3.86 out of 4 after the completion of her 200 level and Emuemhonjie Idialu, who had a CGPA of 3.84 out of 4 in his 100 level result from the department of Medicine & Surgery also in the University of Ibadan. The accountant-in-the-making, Cephas  Cephas  Ogenerukeuwe, who was  one of the best five of the 2017 set is having an easy ride at the University of Benin with a CGPA of 4.72 after his 100 level!
 If all these and many more are doing very well in their tertiary institutions, you cannot do less. You MUST make a difference wherever you find yourself in your chosen career. I am highly encouraged by your 2019 MOCK UTME results. It was an impressive result and I have no doubt of your ability to defend those results in the tertiary institutions. Bello-Oro John has made history as the very first student to score as high as 329 in the UTME, 2019. This is a great achievement for the school. Thank you for making the school proud.  While I celebrate all of you, permit me to ‘jingle this bell’:
-`<p><strong>BEST FIFTEEN 2019 UTME MOCK RESULTS&nbsp; &nbsp; &nbsp; &nbsp; BEST FIFTEEN 2019 UTME RESULTS</strong></p>
-<ol>
-<li>Shotunde Daniel (305 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bello-Oro John&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 329 marks)</li>
-<li>Bello-Oro John (287 marks)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Soyinka Oluwatimilehin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 284 marks)</li>
-<li>Akinsinde Victoria (282 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Onasanya Oluwabukunmi&nbsp;&nbsp; ( 282 marks)</li>
-<li>Eto-akosile Philip (282 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Shotunde Daniel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 279 marks)</li>
-<li>Benedict Opeyemi (278 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Alabi Emmanuel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 279 marks)</li>
-<li>Adedokun Mary (275 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dada Jesutofunmi&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 278 marks)</li>
-<li>Soyinka Timilehin (273 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eto-Akosile Philips&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 273 marks)</li>
-<li>Eniolawun Richard (267 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Osisanwo Faith&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( 270 marks)</li>
-<li>Ogundimu Yewande (261 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Benedict Opeyemi&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 265 marks)</li>
-<li>Kuye Morenike (260 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eyiowuawi Boluwatife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 262 marks)</li>
-<li>Sanyaolu Ayobode (260 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Akinsinde Victoria&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 261 marks)</li>
-<li>Dada Jesutofunmi (259 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Timothy Nom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 261 marks)</li>
-<li>Ezebune Ayomide (259 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kuye Morenike&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 260 marks)</li>
-<li>Olubiyi Emmanuel (258 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adedokun Mary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 257 marks)</li>
-<li>Alabi Emmanuel (255 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ogunlami Teniola&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 253 marks)</li>
-<li>Odunmbaku Basit (255 marks)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Odunmbaku Basit&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 253 marks)</li>
-</ol>
-<p>&nbsp;</p>`
+`**BEST FIFTEEN 2019 UTME MOCK RESULTS        BEST FIFTEEN 2019 UTME RESULTS**
+
+
+1.Shotunde Daniel (305 marks)               Bello-Oro John (329 marks)
+
+2.Bello-Oro John (287 marks)                Soyinka Oluwatimilehin      ( 284 marks)
+
+3.Akinsinde Victoria (282 marks)            Onasanya Oluwabukunmi (282 marks)
+
+4.Eto-akosile Philip (282 marks)            Shotunde Daniel ( 279 marks)
+
+5.Benedict Opeyemi (278 marks)              Alabi Emmanuel ( 279 marks)
+
+6.Adedokun Mary (275 marks)                 Dada Jesutofunmi                ( 278 marks)
+
+7.Soyinka Timilehin (273 marks)             Eto-Akosile Philips                ( 273 marks)
+
+8.Eniolawun Richard (267 marks)             Osisanwo Faith                      ( 270 marks)
+
+9.Ogundimu Yewande (261 marks)             Benedict Opeyemi                ( 265 marks)
+
+10.Kuye Morenike (260 marks)               Eyiowuawi Boluwatife        ( 262 marks)
+
+11.Sanyaolu Ayobode (260 marks)            Akinsinde Victoria ( 261 marks)
+
+12.Dada Jesutofunmi (259 marks)            Timothy Nom ( 261 marks)
+
+13.Ezebune Ayomide (259 marks)             Kuye Morenike( 260 marks)
+
+14.Olubiyi Emmanuel (258 marks)            Adedokun Mary ( 257 marks)
+
+15.Alabi Emmanuel (255 marks)              Ogunlami Teniola ( 253 marks)
+
+16.Odunmbaku Basit (255 marks)             Odunmbaku Basit( 253 marks)`
 
 It gives me joy that your set has showed potentials for genius. While some of you have consistently stood out from JS 1, some are yet to discover the genius in you but I assure you that it’s there. I have no doubt in my mind that we have first class materials amongst you. Discover yourself and stand out! 
 As I celebrate you all, I cannot but celebrate the current JAMB Registrar, Prof. Is-haq Oloyede, a man of integrity and purpose, who is working tirelessly and effortlessly in bringing sanity to the educational system of the Nation by releasing genuine results that show a true picture of the candidate’s ability and performance. Since 2017 UTME, we have had it quite splendid and rewarding with this outstanding performance:
-`<p>HIGHEST UTME SCORES</p>
+`HIGHEST UTME SCORES
+
 <table>
+
 <tbody>
+
 <tr>
+
 <td width="160">
-<p>YEAR</p>
+
+YEAR
+
 </td>
+
 <td width="160">
-<p>SCORE</p>
+
+SCORE
+
 </td>
+
 <td width="160">
-<p>NAME</p>
+
+NAME
+
 </td>
+
 <td width="160">
-<p>REGISTRATION NO</p>
+
+REGISTRATION NO
+
 </td>
+
 </tr>
+
 <tr>
+
 <td width="160">
-<p>2017</p>
+
+2017
+
 </td>
+
 <td width="160">
-<p>324</p>
+
+324
+
 </td>
+
 <td width="160">
-<p>FAGUNWA &lsquo;TITOBI</p>
+
+FAGUNWA ‘TITOBI
+
 </td>
+
 <td width="160">
-<p>75886301JH</p>
+
+75886301JH
+
 </td>
+
 </tr>
+
 <tr>
+
 <td width="160">
-<p>2018</p>
+
+2018
+
 </td>
+
 <td width="160">
-<p>317</p>
+
+317
+
 </td>
+
 <td width="160">
-<p>OSHO ADEOLA</p>
+
+OSHO ADEOLA
+
 </td>
+
 <td width="160">
-<p>85992258GB</p>
+
+85992258GB
+
 </td>
+
 </tr>
+
 <tr>
+
 <td width="160">
-<p>2019</p>
+
+2019
+
 </td>
+
 <td width="160">
-<p>329</p>
+
+329
+
 </td>
+
 <td width="160">
-<p>BELLO-ORO JOHN</p>
+
+BELLO-ORO JOHN
+
 </td>
+
 <td width="160">
-<p>96879255DH</p>
+
+96879255DH
+
 </td>
+
 </tr>
+
 </tbody>
+
 </table>`
 
 You all are going places beyond your dreams and aspirations in life. Your team spirit had paid off for you. Please, remember that you cannot write your history and your School becomes a history! Your story is made enviable by your accomplishments, so dare to stand out. Stand out for:
