@@ -17,109 +17,119 @@ You have all proved to be a set of highly disciplined and morally upright studen
 Our overall best  student in the 2018 WASSCE  ( with 7 As and 2 Bs) the young, talented and versatile  Ogunfunmilayo Rekiyah, has not ceased keeping  her pace at the University of Ilorin as a medical student by ‘raking’ in all the A’s in 8 out of her 9 courses in her just concluded 1st semester exam. What an excellent performance! She decided to stand out and will not allow herself to be intimidated by anyone. Time will tell of what will become of her in the nearest future. She consistently stood out while in OSMAS.
 
 Aiyedun Tilewa and Adekanmbi ‘Sewa, although not among the 2018 best five students, they have decided to stand out at Afe Babalola 
-`
-<html>
-<body>
+`HIGHEST UTME SCORES
+
 <table>
+
 <tbody>
+
 <tr>
-<td width="40">
-<p>Sno</p>
+
+<td width="160">
+
+YEAR
+
 </td>
-<td width="113">
-<p>NAME</p>
+
+<td width="160">
+
+SCORE
+
 </td>
-<td width="74">
-<p>2018 WAEC RESULT</p>
+
+<td width="160">
+
+NAME
+
 </td>
-<td width="78">
-<p>2018 UTME RESULTS</p>
+
+<td width="160">
+
+REGISTRATION NO
+
 </td>
-<td width="171">
-<p>COURSE</p>
-</td>
-<td width="88">
-<p>UNIVERSITY</p>
-</td>
-<td width="74">
-<p>GPA/RESULT</p>
-</td>
+
 </tr>
+
 <tr>
-<td width="40">
-<p>1.</p>
+
+<td width="160">2017</td>
+
+<td width="160">324</td>
+
+<td width="160">
+
+FAGUNWA ‘TITOBI
+
 </td>
-<td width="113">
-<p>OGUNFUNMILAYO</p>
-<p>REKIYAH</p>
+
+<td width="160">
+
+75886301JH
+
 </td>
-<td width="74">
-<p>7As &amp; 2 Bs</p>
-</td>
-<td width="78">
-<p>278</p>
-</td>
-<td width="171">
-<p>MEDICINE &amp; SURGERY</p>
-</td>
-<td width="88">
-<p>UNILORIN</p>
-</td>
-<td width="74">
-<p>8As &amp; 1B</p>
-</td>
+
 </tr>
+
 <tr>
-<td width="40">
-<p>2.</p>
+
+<td width="160">
+
+2018
+
 </td>
-<td width="113">
-<p>AIYEDUN TILEWA</p>
+
+<td width="160">
+
+317
+
 </td>
-<td width="74">
-<p>3As, 5Bs &amp; 1C</p>
+
+<td width="160">
+
+OSHO ADEOLA
+
 </td>
-<td width="78">
-<p>236</p>
+
+<td width="160">
+
+85992258GB
+
 </td>
-<td width="171">
-<p>ELECTRICAL/ELECTRONICS</p>
-</td>
-<td width="88">
-<p>AFE BABALOLA UNIVERSITY</p>
-</td>
-<td width="74">
-<p>4.85</p>
-</td>
+
 </tr>
+
 <tr>
-<td width="40">
-<p>3.</p>
+
+<td width="160">
+
+2019
+
 </td>
-<td width="113">
-<p>ADEKANMBI ADESEWA</p>
+
+<td width="160">
+
+329
+
 </td>
-<td width="74">
-<p>1A, 6Bs &amp; 2Cs</p>
+
+<td width="160">
+
+BELLO-ORO JOHN
+
 </td>
-<td width="78">
-<p>208</p>
+
+<td width="160">
+
+96879255DH
+
 </td>
-<td width="171">
-<p>NURSING</p>
-</td>
-<td width="88">
-<p>AFE BABALOLA UNIVERSITY</p>
-</td>
-<td width="74">
-<p>4.56</p>
-</td>
+
 </tr>
+
 </tbody>
-</table>
-</html>
-</body>
-</html>`
+
+</table>`
 
 Time will fail me to tell of Ogunlami Titilayo, the rugged pharmacist who is presently pulling her weight in the University of Ibadan with a CGPA of 3.86 out of 4 after the completion of her 200 level and Emuemhonjie Idialu, who had a CGPA of 3.84 out of 4 in his 100 level result from the department of Medicine & Surgery also in the University of Ibadan. The accountant-in-the-making, Cephas  Cephas  Ogenerukeuwe, who was  one of the best five of the 2017 set is having an easy ride at the University of Benin with a CGPA of 4.72 after his 100 level!
 If all these and many more are doing very well in their tertiary institutions, you cannot do less. You MUST make a difference wherever you find yourself in your chosen career. I am highly encouraged by your 2019 MOCK UTME results. It was an impressive result and I have no doubt of your ability to defend those results in the tertiary institutions. Bello-Oro John has made history as the very first student to score as high as 329 in the UTME, 2019. This is a great achievement for the school. Thank you for making the school proud.  While I celebrate all of you, permit me to ‘jingle this bell’:
