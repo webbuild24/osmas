@@ -1,23 +1,773 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Form</title>
+  <title>ACT Booking</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="actlogo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $('a').on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== '') {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The number (1200) specifies the number of ms's it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top,
+          }, 1200, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #C7C4C4;
+    }
+
+    /*  SCROLL TO TOP FLOATING BUTTON */
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      font-size: 30px;
+      border: none;
+      outline: none;
+      background-color: #ff0000;
+      color: white;
+      cursor: wait;
+      padding: 8px 15px 1px 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #505051;
+      color: #fff
+    }
+
+    h1 {
+      font-family: 'Gugi', cursive;
+      font-weight: normal;
+      text-align: center;
+      color: #D5D5D7;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      line-height: 1.0;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      text-align: center;
+      color: #D5D5D7;
+    }
+
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      padding: 40px 0px 40px 0px;
+      font-size: 30px;
+      text-align: center;
+      width: 75%;
+      margin: 0 auto;
+      color: #fff;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      height: 150px;
+      background-color: #3636F7;
+    }
+
+
+    .co-logo {
+      padding: 10px 0 20px 0;
+      margin-right: 20px;
+      width: 180px;
+    }
+
+    .co-logo img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .name {
+      display: block;
+      padding-top: 30px;
+      text-align: left;
+    }
+
+    .nav {
+      display: flex;
+      border-top: 1px solid #D5D5D7;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 8px;
+      justify-content: center;
+    }
+
+    li {
+      display: inline-block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 5px 10px 0px 10px;
+      text-align: center;
+    }
+
+    .nav a {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      color: #D5D5D7;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .nav a:hover {
+      color: #FA0303;
+    }
+
+    /* 3 IMAGES ACROSS TOP IN ROW */
+
+    .column1,
+    .column2,
+    .column3 {
+      font-family: 'Gugi', cursive;
+      font-weight: normal;
+      text-align: center;
+      color: #142089;
+      font-size: 50px;
+      line-height: 1.0;
+      float: left;
+      width: 33.33%;
+      height: 300px;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+
+
+    .column1 {
+      background-image: url('wesley-tingey-223059-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .column2 {
+      background-image: url('marcela-laskoski-118684-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .column3 {
+      background-image: url('jakob-owens-231036-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .message,
+    .message2,
+    .message3,
+    .message4 {
+      display: flex;
+      width: 100%;
+      font-family: 'Gugi', cursive;
+      font-weight: normal;
+      justify-content: center;
+      color: #D5D5D7;
+      line-height: 1.0;
+      font-size: 35px;
+      height: 45px;
+      padding: 25px 0px 10px 0px;
+      background-color: #3636F7;
+      margin: 0;
+    }
+
+    .info {
+      margin: 0px;
+      background-image: url('melissa-askew-15335-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bands {
+      width: 100%;
+      /*height: 830px;*/
+      background-color: #D5D5D7;
+    }
+
+    .caption1 {
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: #3636F7;
+      text-align: center;
+      padding-top: 5px;
+    }
+
+    .caption2 {
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #505051;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .band-images {
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .image-band-members {
+      width: 50%;
+      padding: 15px 10px 15px 10px;
+    }
+
+    .image-band-member {
+      margin: 0 auto;
+      width: 50%;
+      padding: 15px 10px 15px 10px;
+    }
+
+    .image-band-members img {
+      width: 100%;
+    }
+
+    .image-band-member img {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .djs {
+      width: 100%;
+    }
+
+    .final-words {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 30px;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-bottom: 0px;
+      color: #fff;
+      background-color: #3636F7;
+    }
+
+    .final-words img {
+      width: 40%;
+      height: 40%;
+    }
+
+    .final-words p {
+      padding-top: 0px;
+    }
+
+    /* Contact Us */
+
+    .form {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 34px;
+      color: #3636F7;
+      text-align: center;
+      font-weight: 600;
+      background-color: #cac6c6;
+      height: 50px;
+      padding-top: 5px;
+      padding-bottom: 3px;
+    }
+
+    /* FORM */
+
+    .email-form {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 450px;
+      padding-top: 20px;
+      background-image: url('contactbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .contact-form {
+      display: block;
+      width: 400px;
+      margin-top: 10px;
+    }
+
+    .contact-form input {
+      /*display: block;*/
+      padding: 15px 0 15px 9px;
+      /*margin: 0 auto;*/
+      margin-bottom: 10px;
+      font-size: 14px;
+      width: 100%;
+      border: 0;
+      background-color: #cac6c6;
+    }
+
+
+    .contact-form textarea {
+      text-align: left;
+      width: 100%;
+      border: 0;
+      padding: 40px 0 25px 9px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      background-color: #cac6c6;
+      resize: none;
+    }
+
+    .contact-form button {
+      text-align: center;
+      width: 40%;
+      border: 0;
+      margin: 5px 0;
+      padding: 2px 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      background-color: #cac6c6;
+    }
+
+    footer {
+      width: 100%;
+      margin: 0;
+      background-color: #000;
+      padding: 30px 0px 40px 0px;
+    }
+
+    footer a {
+      color: #D5D5D7;
+      text-decoration: none;
+    }
+
+
+
+
+
+    /* Media Querys */
+
+    @media screen and (max-width: 480px) {
+
+      .co-logo {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 0;
+      }
+
+      p {
+        font-family: 'Open Sans', sans-serif;
+        padding: 40px 0px 40px 0px;
+        font-size: 25px;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        color: #fff;
+      }
+
+      .logo-container {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        height: 180px;
+        background-color: #3636F7;
+      }
+
+      .column1,
+      .column2,
+      .column3 {
+        width: 100%;
+      }
+
+      .message {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        font-family: 'Gugi', cursive;
+        font-weight: normal;
+        justify-content: center;
+        color: #D5D5D7;
+        line-height: 1.0;
+        font-size: 32px;
+        height: 50px;
+        padding: 10px 0px 20px 0px;
+        background-color: #3636F7;
+        margin: 0 auto;
+      }
+
+      .message2,
+      .message3 {
+        display: flex;
+        width: 100%;
+        font-family: 'Gugi', cursive;
+        font-weight: normal;
+        justify-content: center;
+        color: #D5D5D7;
+        font-size: 35px;
+        height: 30px;
+        padding: 15px 0px 15px 0px;
+        background-color: #3636F7;
+        margin: 0;
+      }
+
+      .message4 {
+        display: flex;
+        width: 100%;
+        font-family: 'Gugi', cursive;
+        font-weight: normal;
+        justify-content: center;
+        text-align: center;
+        color: #D5D5D7;
+        line-height: 1.1;
+        font-size: 33px;
+        height: 70px;
+        padding: 15px 0px 15px 0px;
+        background-color: #3636F7;
+        margin: 0;
+      }
+
+      .band-images {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      .image-band-members,
+      .image-band-member {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      .image-band-members img,
+      .image-band-member img {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+      }
+
+      .contact-form {
+        display: block;
+        width: 300px;
+        margin-top: 10px;
+      }
+
+      footer {
+        width: 100%;
+        margin: 0;
+        background-color: #000;
+        padding: 30px 0px 80px 0px;
+      }
+
+    }
+  </style>
 </head>
 
+<!-- START -->
+
+
 <body>
-<form action="contact.php" method="post" name="contactform">
-<p>First Name *</p>
-<p><input maxlength="50" name="first_name" size="30" type="text" /></p>
-<p>Last Name *</p>
-<p><input maxlength="50" name="last_name" size="30" type="text" /></p>
-<p>Telephone</p>
-<p><input maxlength="30" name="telephone" size="30" type="text" /></p>
-<p>Email Address *</p>
-<p><input maxlength="80" name="email" size="30" type="email" /></p>
-<p>Message *</p>
-<p><textarea cols="25" maxlength="1000" name="comments" rows="6"></textarea></p>
-<p><input type="submit" value="Submit" /></p>
-</form>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+  <script>
+    // When the user scrolls down 1000px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        document.getElementById('myBtn').style.display = 'block';
+      } else {
+        document.getElementById('myBtn').style.display = 'none';
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+  <!-- NAV -->
+
+
+  <div class="logo-container">
+    <div class="co-logo">
+      <img src="actlogo.png" alt="ACT Booking agency logo">
+    </div>
+    <div class="name">
+      <h1>ACT Booking Agency</h1>
+      <ul class="nav">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#bands">Bands</a></li>
+        <li><a href="#djs">DJ's</a></li>
+        <li><a href="#video">Photo/Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <!-- SERVICES -->
+
+  <div class="row">
+    <div class="column1">BANDS</div>
+    <div class="column2">DJ'S</div>
+    <div class="column3">PHOTO/<br>VIDEO</div>
+  </div>
+
+
+  <!-- MESSAGE 1 -->
+
+  <div class="message">
+    Personalized service for all events
+  </div>
+
+
+  <!-- INFO -->
+
+
+  <div class="info" id="about">
+
+    <p>ACT is proud to offer our customers personalized service and live music entertainment for a wide variety of events. From the casual, to the most formal and all events in between. Be it a public, private, or corporate party, concert, nite club, organization,
+      birthday, christening, bar or bat mitzvah, graduation, wedding, anniversary, holiday, large or small, indoor or outdoor, ACT has the correct choice for all your live music needs.</p>
+
+    <p>We guarantee the most well suited entertainment, from a single, duo, trio, up to and including, large bands with or without horn and percussion sections, male or female vocalists or both. Our DJ's, as well as, our bands cover songs from the 40's to
+      present, including Jazz, Big Band, Doo Wop, Rock, R&B, Latin, Pop, Country, Disco and Show. Bands that feature vocalists who sing in Spanish, Italian, as well as English are available.</p>
+
+    <p>Sound, Lighting and Video Music Productions coordinated by our DJ's bring any special event to life. Our MC's custom tailor dances, games, and special events. From lighting to enhanced images and video of you and your guests appearing on large monitors,
+      make for an unforgettable visual and aural experience.</p>
+
+    <p>Please contact ACT Booking Agency for a professional analysis and quote on the best suited entertainment for your up coming event.</p>
+  </div>
+
+  <!-- MESSAGE 2 -->
+
+  <div class="bands" id="bands"></div>
+
+  <div class="message2">
+    Our Featured Bands
+  </div>
+
+
+
+  <!-- FEATURED BANDS -->
+
+  <div class="band-container">
+    <div class="band-images">
+      <div class="image-band-members">
+        <img src="evilways5.jpg" alt="Nardi's Evilways Band">
+        <span class="caption1">Nardi's Evil Ways</span>
+        <span class="caption2">Lou Nardi, bearing an uncanny resemblance to Carlos, excels at mimicking his melodic and soaring sustained guitar tones. Over the course of a two hour show, he takes his audience on an emotional trip from Santana's beginnings in the late 60's, through time to the present. Come share in the celebration of the sights and sounds of Santana.</span>
+      </div>
+      <div class="image-band-members">
+        <img src="caribena.jpg" alt="Orquesta La Caribe&#241;a">
+        <span class="caption1">Orquesta La Caribe&#241;a</span>
+        <span class="caption2">This band is a cornucopia of some of the best musicians in the tri-state area. Having all played with many of the &quot;Mega Stars&quot; in the field of Latin music, such as Frankie Negron, La India, Tito Nieves and Eddie Santiago. They're more than ready to handle all your Latin music needs.</span>
+      </div>
+    </div>
+
+    <div class="band-images">
+      <div class="image-band-members">
+        <img src="nardiwed.jpg" alt="Nardi band">
+        <span class="caption1">Nardi</span>
+        <span class="caption2">Nardi a five to twelve piece band fronted by male, female or both vocalists, including percussion and horn sections. The band appeals to audiences of all ages, covering a wide variety of material from the 40's to the present.</span>
+      </div>
+      <div class="image-band-members">
+        <img src="reflex.jpg" alt="Reflections band">
+        <span class="caption1">Reflections</span>
+        <span class="caption2">The Tri-State area's premiere party and dance band performing everyone's favorite Soul, Funk, R&B, and Pop tunes. Reflections wows crowds playing songs you remember and love but rarely hear other bands play as well all of today's current top R&B and Pop hits.</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- MESSAGE 3 -->
+
+  <div class="djs" id="djs"></div>
+
+  <!-- FEATURED DJS -->
+
+  <div class="message3">
+    Our Featured DJ's
+  </div>
+
+  <div class="dj-container">
+    <div class="band-images">
+      <div class="image-band-members">
+        <img src="djultra.jpg" alt="Ra Hanna, DJ Ultra">
+        <span class="caption1">DJ Ultra</span>
+        <span class="caption2">DJ Ultra is a Turntablist specializing in Funk, R&B, Soul Fusion, Old School Hip Hop & Northern Soul (breaks). DJ Ultra toured with the HipHopGods Classic Tourfest Revue featuring Public Enemy and a revolving lineup of all-stars from the Golden Age of hip hop including X-Clan, Schoolly D, Leaders of the New School, Monie Love, Son of Bazerk, Wise Intelligent (of Poor Righteous Teachers), Awesome Dre and Davy DMX.</span>
+      </div>
+
+      <div class="image-band-members">
+        <img src="3platinum.jpg" alt="Triple Platinum Entertainment">
+        <span class="caption1">Triple Platinum Entertainment</span>
+        <span class="caption2">From the 1950's to the present we cover all styles of music. We take a personalized approach to your music. Want your guests to dance the night away? No problem. Prefer a more classically elegant vibe? We’ve got you covered. Tell us your personal style, we've got a great song for that.</span>
+      </div>
+    </div>
+
+    <div class="band-images">
+      <div class="image-band-members">
+        <img src="djmigmac.jpg" alt="DJ MigMac">
+        <span class="caption1">DJ MigMac</span>
+        <span class="caption2">80s pop to Indie Rock, Spanish & Hip Hop, this is one DJ who isn’t afraid to innovate and try something new. If you're looking for something different DJ MigMac is it!</span>
+      </div>
+      <div class="image-band-members">
+        <img src="djteck.jpg" alt="DJ Teck">
+        <span class="caption1">DJ Teck</span>
+        <span class="caption2">Providing the best in music for all your events! With an extensive library of music ranging from the 1950's through today's current hits in all genres. We provide Master of Ceremony, Lighting Effects, Party Favors and Event Planning!</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FEATURED PHOTO/VIDEO-GRAPHERS -->
+
+  <div class="video" id="video"></div>
+
+  <div class="message4">
+    Our Featured Photo/Video-graphers
+  </div>
+
+  <div class="video-container">
+    <div class="band-images">
+      <div class="image-band-members">
+        <img src="photo4.jpg" alt="Christopher Bowen, photographer">
+        <span class="caption1">Photography</span>
+        <span class="caption2">Experienced and talented photographer who covers the tri-state area who specializes in Weddings, Events and People.</span>
+      </div>
+      <div class="image-band-members">
+        <img src="photoboothpeople.jpg" alt="Funky Photo Booths and Video">
+        <span class="caption1">Photo Booths and Video</span>
+        <span class="caption2">We are a company primarily devoted to providing Photo Booth Services and  specifically enclosed photo booths or self-automated devices. We also provide video services.</span>
+      </div>
+    </div>
+
+    <div class="band-images">
+      <div class="image-band-member">
+        <img src="twistedcreations.jpg" alt="Twisted Creations">
+        <span class="caption1">Childrens Party Creations</span>
+        <span class="caption2">We create lasting memories and excitement with balloons and bubbles. I twist over 200 different balloon creations appealing to both adults and children. Fully insured by Performers of the US Agency.</span>
+      </div>
+      <!-- <div class="image-band-members">
+        <img src="bandpic.jpg" alt="Another DJ image here">
+        <span class="caption1">Name Here</span>
+        <span class="caption2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. </span>
+      </div>-->
+    </div>
+  </div>
+
+
+
+  <!-- FINAL WORDS -->
+
+
+
+  <div class="final-words">
+    <img src="actlogo.png" alt="ACT Booking agency logo">
+    <p>ACT Booking Agency is here to accomodate all your entertainment needs. If you're interested in booking any of the entertainment above or maybe even someone who isn't above, please contact us and we'll make your event something everyone will remember.
+    </p>
+  </div>
+
+
+  <!-- FORM -->
+  <div class="contact" id="contact"></div>
+
+
+  <div class="form">
+    Contact Us
+  </div>
+  <div class="email-form">
+    <form class="contact-form" action="contactform.php" method="post">
+      <input type="text" name="name" placeholder="Full Name">
+      <input type="text" name="mail" placeholder="Your E-mail">
+      <input type="text" name="phone" placeholder="Phone">
+      <input type="text" name="subject" placeholder="Subject">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </div>
+
+
+
+  <!-- FOOTER -->
+
+
+  <footer>
+    <h1>ACT Booking Agency</h1><br>
+    <h2>PO Box 44, 290 Hackensack Street,<br>
+            Wood Ridge, New Jersey 07075<br>
+        <i class="fas fa-mobile-alt"></i>&nbsp;
+        <a href="tel:2012918400">(201) 291-8400</a> &nbsp; &nbsp;
+        <i class="fas fa-fax"></i>
+        Fax (201) 226-1469</h2>
+  </footer>
+
+
+
 </body>
 </html>
