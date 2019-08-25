@@ -11,3 +11,15 @@
     height: 170px !important;
     width: 400px !important;
 }
+p{
+    padding-left: 25px;
+}
+li{
+    list-style: circle;
+    list-style-type: lower-roman;
+    margin-inline-start: 23px
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
