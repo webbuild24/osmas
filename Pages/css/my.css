@@ -14,7 +14,7 @@
 p{
     padding-left: 25px;
 }
-li{
+ol li{
     list-style: circle;
     list-style-type: lower-roman;
     margin-inline-start: 23px
