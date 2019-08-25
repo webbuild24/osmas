@@ -5,7 +5,7 @@
 
 <?php
  
-if(isset($_POST['email'])) {
+if(isset($_POST['contact'])) {
  
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
