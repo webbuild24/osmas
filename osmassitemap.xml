@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://osmas.netlify.com/</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/index.html</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/about</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/blog</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/our-team</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/contact</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/dare-to-stand-out-01</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/dare-to-stand-out-02</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/dare-to-stand-out-03</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/bishop-message-04</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/pta-support-05</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://osmas.netlify.com/pages/posts/exercise-is-good-for-all-06</loc>
+  <lastmod>2019-08-26T07:08:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
