@@ -66,6 +66,26 @@
 		  }
 		}
 		
+		.top-nav-collapse {
+      background-color: #a0023e !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+      background: transparent !important;
+    }
+
+    @media (max-width: 768px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #a0023e !important;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #a0023e !important;
+      }
+	}
+	
 		@media screen and (max-width: 600px) {
 		  .topnav.responsive {position: relative;}
 		  .topnav.responsive .icon {
@@ -100,7 +120,7 @@
     <style>
         .navbar {
             overflow: hidden;
-		  	background-color: #333;
+		  	background-color: rgb(146, 5, 64);
         }
         footer.page-footer {
             overflow: hidden;
@@ -112,7 +132,7 @@
      
      <!--Main Navigation-->
       <header>
-          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
               <div class="container">
                   <a class="navbar-brand" href="#"><strong>OSMAS</strong></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -154,9 +174,13 @@
 	<div class="size1 bg0 where1-parent" >
 		<!-- Coutdown -->
 		<div class="flex-c-m bg-img1 size1 where1 where2 " style="background-image: url('images/DSC_0869.jpg');">
-			<div class="logo-home where1" >
-				<img  src="images/osmas-real-logo.png" alt="LOGO">
+			<div class="intro-info-content logo-home where1" >
 				
+				<img class="wow fadeInDown" data-wow-delay="0.3s" src="images/osmas-real-logo.png" alt="LOGO">
+				<h1 class="display-1 pink-text mb-2 wow fadeInDown" data-wow-delay="0.3s">OSMAS</h1>
+				<div class="about">
+
+				</div>
 		</div>
 
 		</div>
@@ -584,6 +608,7 @@
 		<!--  SCRIPTS  -->
 		<!-- JQuery -->
 		<script type="text/javascript" src="../Pages/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../Pages/js/main.js"></script>
 		<!-- Bootstrap tooltips -->
 		<script type="text/javascript" src="../Pages/js/popper.min.js"></script>
 		<!-- Bootstrap core JavaScript -->
