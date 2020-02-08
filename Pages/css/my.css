@@ -25,7 +25,7 @@ body{
 }
 .about{
     width: 60%;
-    height: 20%;
+    height: fit-content;
     background-color: rgba(255, 228, 196, 0.445);
     border-radius: 12px;
 }
