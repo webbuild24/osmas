@@ -46,3 +46,17 @@ body{
 .read-more{
     text-align: center
 }
+.topImage{
+    width: 100%;
+    height: 800px;
+    zoom: 0.8;
+   
+} 
+.topImage img{
+        width: initial;
+    }
+
+    .mySlides{
+        width: fit-content;
+        height: 100%;
+    }

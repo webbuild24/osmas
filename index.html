@@ -1,770 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>OMOLAJA SODIPO MEMORIAL ANGLICAN SCHOOL | TO GOD AND COUNTRY</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="This is the Official Website of Omolaja Sodipo Memorial Anglican School, Onikolobo, Abeokuta. We are a Goverment Approved Co-Educational Secondary School with over twennty years of Undented reputation "/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="google-site-verification" content="-KdYXZhKvEeBxKEVkAKJrm-dwRsys4sm3hSbvE1HZQk" />
-	<meta name="google-site-verification" content="9JBwqgsrrgAw0b887DvbX3HcX5VtkAwHN35AElIy2AM" />
-<!--===============================================================================================-->	
-<link rel="shortcut icon" type ="image/png " href="../images/osmas-real-logo.png">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="gallery.css">
-<!--===============================================================================================-->
 
-<style>
-		body {
-		  margin: 0;
-		  font-family: Arial, Helvetica, sans-serif;
-		}
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>OSMAS-OMOLAJA SODIPO MEMORIAL ANGLICAN SCHOOL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
+        <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+    </head>
+    <body id="page">
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3>SCIENCE</h3></div></li>
+            <li><span>Image 02</span><div><h3>MUSIC</h3></div></li>
+            <li><span>Image 03</span><div><h3>bal·ance-d</h3></div></li>
+            <li><span>Image 04</span><div><h3>secure</h3></div></li>
+            <li><span>Image 05</span><div><h3>LIBRARY</h3></div></li>
+            <li><span>Image 06</span><div><h3>SPORT</h3></div></li>
+        </ul>
+        <div class="container">
+            <div>
+				<style>
+					body {
+					  font-family: "Lato", sans-serif;
+					}
+					
+					.sidenav {
+					  height: 100%;
+					  width: 0;
+					  position: fixed;
+					  z-index: 1;
+					  top: 0;
+					  left: 0;
+					  background-color: #111;
+					  overflow-x: hidden;
+					  transition: 0.5s;
+					  padding-top: 60px;
+					}
+					
+					.sidenav a {
+					  padding: 8px 8px 8px 32px;
+					  text-decoration: none;
+					  font-size: 25px;
+					  color: #818181;
+					  display: block;
+					  transition: 0.3s;
+					}
+					
+					.sidenav a:hover {
+					  color: #f1f1f1;
+					}
+					
+					.sidenav .closebtn {
+					  position: absolute;
+					  top: 0;
+					  right: 25px;
+					  font-size: 36px;
+					  margin-left: 50px;
+					}
+					
+					@media screen and (max-height: 450px) {
+					  .sidenav {padding-top: 15px;}
+					  .sidenav a {font-size: 18px;}
+					}
+					</style>
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="../Pages/about.html">About</a>
+					<a href="../Pages/admission.html">Admission</a>
+					<a href="../Pages/our-team.html">Blog</a>
+					<a href="../Pages/blog.html">Our Team</a>
+					<a href="../Pages/contact.html">Contact</a>
+				  </div>
+				  
 		
-		.topnav {
-		  overflow: hidden;
-		  background-color: #333;
-		}
-		
-		.topnav a {
-		  float: left;
-		  display: block;
-		  color: #f2f2f2;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		  font-size: 17px;
-		}
-		
-		.topnav a:hover {
-		  background-color: #ddd;
-		  color: black;
-		}
-		
-		.topnav a.active {
-		  background-color: #4CAF50;
-		  color: white;
-		}
-		
-		.topnav .icon {
-		  display: none;
-		}
-		
-		@media screen and (max-width: 600px) {
-		  .topnav a:not(:first-child) {display: none;}
-		  .topnav a.icon {
-			float: right;
-			display: block;
-		  }
-		}
-		
-		.top-nav-collapse {
-      background-color: rgb(241, 12, 165) !important;
-    }
-
-    .navbar:not(.top-nav-collapse) {
-      background: transparent !important;
-    }
-
-    @media (max-width: 768px) {
-      .navbar:not(.top-nav-collapse) {
-        background: transparent !important;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: rgb(241, 12, 165) !important;
-      }
-	}
-	
-		@media screen and (max-width: 600px) {
-		  .topnav.responsive {position: relative;}
-		  .topnav.responsive .icon {
-			position: absolute;
-			right: 0;
-			top: 0;
-		  }
-		  .topnav.responsive a {
-			float: none;
-			display: block;
-			text-align: left;
-		  }
-		}
-		</style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--  Font Awesome  -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap core CSS -->
-<link href="../pages/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="../pages/css/mdb.min.css" rel="stylesheet">
-<link href="../Pages/css/my.css" rel="stylesheet">
-<link rel="shortcut icon" type ="image/png " href="../images/osmas-real-logo.png">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	
-<!--===============================================================================================-->
-    
-    <style>
-        .navbar {
-            overflow: hidden;
-		  	background-color: rgb(241, 12, 165);
-        }
-        footer.page-footer {
-            overflow: hidden;
-		  background-color: #333;
-        }
-
-    </style>
-</head>     
-     
-     <!--Main Navigation-->
-      <header>
-          <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
-              <div class="container">
-                  <a class="navbar-brand" href="#"><strong>OSMAS</strong></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                      aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                          <li class="nav-item active">
-                              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="../Pages/about.html">About</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="../Pages/blog.html">Blog</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="../Pages/our-team.html">Our Team</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="../Pages/contact.html">Contact</a>
-                          </li>
-                          </li>
-                          
-                      </ul>
-                      <ul class="navbar-nav nav-flex-icons">
-                          <li class="nav-item">
-                              <a class="nav-link" href="https://web.facebook.com/Omolaja-Sodipo-Memorial-Anglican-School-137046530290788/"><i class="fa fa-facebook"></i></a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
-  
-      </header>
-      <!--Main Navigation-->	
-	
-	<div class="size1 bg0 where1-parent" >
-		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size1 where1 where2 " style="background-image: url('images/DSC_0869.jpg');">
-			<div class="intro-info-content logo-home where1" >
-				
-				<img class="wow fadeInDown" data-wow-delay="0.3s" src="images/osmas-real-logo.png" alt="LOGO">
-				<h1 class="display-1 pink-text mb-2 wow fadeInDown" data-wow-delay="0.4s">OSMAS</h1>
-				<div class="about wow fadeInDown" data-wow-delay="0.5s">
-					<div class="about1 text-center">
-						<h5 class="display-7">
-							Uniquely established to develop students who are ready to lead and build a greater Country</h5>
-					</div>
-				</div>
+				  <span style="font-size:30px;cursor:pointer; color: antiquewhite;" class="cb-slideshow" onclick="openNav()">&#9776; MENU</span>
+				  
+				  <script>
+				  function openNav() {
+					document.getElementById("mySidenav").style.width = "250px";
+				  }
+				  
+				  function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+				  }
+				  </script>
+			</div>
 		</div>
-
-		</div>
-	</div>
-
-<section >
-		<div class="container">
-<h1 class="mt-5 text-center">MOST RECENT POSTS</h1>
-				<!--Section: Blog v.4-->
-				<section class="section mt-5 pb-3 wow fadeIn">
-	
-					<!--Grid row-->
-					<div class="row">
-						<div class="col-md-12">  
-			      <!-- Grid row -->
-				  <div class="row">
-						<!-- Grid column -->
-						<div class="col-lg-5">
-						  <!-- Featured image -->
-						  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-							<img
-							  class="img-fluid"
-							  src="./../images/osmas-sport-high-jump.jpg"
-							  alt="Sample image"
-							/>
-							<a>
-							  <div class="mask rgba-white-slight"></div>
-							</a>
-						  </div>
-						</div>
-						<!-- Grid column -->
-				
-						<!-- Grid column -->
-						<div class="col-lg-7">
-						  <!-- Category -->
-						  <a href="#!" class="green-text">
-							<h6 class="font-weight-bold mb-3">
-							  <i class="fa fa-pencil pr-2"></i>Speech
-							</h6>
-						  </a>
-						  <!-- Post title -->
-						  <h3 class="font-weight-bold mb-3">
-							<strong
-							  >THE 19TH ANNUAL INTER-HOUSE SPORT COMPETITION</strong
-							>
-						  </h3>
-						  <!-- Excerpt -->
-						  <p>
-								A high functioning team can achieve incredible results and work becomes motivating,fun and incredibly rewarding..
-								Each house is a team with leaders to bring everyone together with a common purpose-"to win"
-						  </p>
-						  <!-- Post data -->
-						  <p>by <strong>Mrs. O. O. Masomimu</strong>, Nov 6, 2019</p>
-						  <!-- Read more button -->
-						  <a class="btn btn-success btn-md" href="../posts/2019-inter-house-sport-07.html"
-							>Read more</a
-						  >
-						</div>
-						<!-- Grid column -->
-					  </div>
-					  <!-- Grid row -->
-				
-					  <hr class="my-5" />	
-		  <!-- Grid row -->
-		  
-		  <div class="row">
-				<!-- Grid column -->
-				<div class="col-lg-5">
-				  <!-- Featured image -->
-				  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-					<img
-					  class="img-fluid"
-					  src="./../images/events pictures/IMG_20180426_101346.jpg"
-					  alt="Sample image"
-					/>
-					<a>
-					  <div class="mask rgba-white-slight"></div>
-					</a>
-				  </div>
-				</div>
-				<!-- Grid column -->
-		
-				<!-- Grid column -->
-				<div class="col-lg-7">
-				  <!-- Category -->
-				  <a href="#!" class="green-text">
-					<h6 class="font-weight-bold mb-3">
-					  <i class="fa fa-pencil pr-2"></i>Speech
-					</h6>
-				  </a>
-				  <!-- Post title -->
-				  <h3 class="font-weight-bold mb-3">
-					<strong
-					  >MAKE A DIFFERENCE BY BEING DIFFERENT; DARE TO STAND OUT</strong
-					>
-				  </h3>
-				  <!-- Excerpt -->
-				  <p>
-					Whao! It’s another six years already just like yesterday. The
-					journey has been long, tasking, hazardous and exciting but thank God
-					you are passing out gloriously. It shall be well with all of you in
-					Jesus’ name. “The past is behind, learn from it The future is ahead,
-					prepare for it The present is here, live it”
-				  </p>
-				  <!-- Post data -->
-				  <p>by <strong>Mrs. O. O. Masomimu</strong>, Aug 23, 2019</p>
-				  <!-- Read more button -->
-				  <a class="btn btn-success btn-md" href="../posts/dare-to-stand-out-01.html"
-					>Read more</a
-				  >
-				</div>
-				<!-- Grid column -->
-			  </div>
-			  <!-- Grid row -->
-		
-			  <hr class="my-5" />
-		
-			  <!-- Grid row -->
-			  <div class="row">
-				<!-- Grid column -->
-				<div class="col-lg-5">
-				  <!-- Featured image -->
-				  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-					<img
-					  class="img-fluid"
-					  src="./../../images/events pictures/IMG_20171005_122430.jpg"
-					  alt="Sample image"
-					/>
-					<a>
-					  <div class="mask rgba-white-slight"></div>
-					</a>
-				  </div>
-				</div>
-				<!-- Grid column -->
-		
-				<!-- Grid column -->
-				<div class="col-lg-7">
-				  <!-- Category -->
-				  <a href="#!" class="green-text">
-					<h6 class="font-weight-bold mb-3">
-					  <i class="fa fa-pencil pr-2"></i>Speech
-					</h6>
-				  </a>
-				  <!-- Post title -->
-				  <h3 class="font-weight-bold mb-3">
-					<strong
-					  >MAKE A DIFFERENCE BY BEING DIFFERENT: DARE TO STAND OUT!</strong
-					>
-				  </h3>
-				  <!-- Excerpt -->
-				  <p>You have all come to a point in your lifetime when you have to step out to be the best you can. Life is competitive. What you venture into from this point, determines the kind of adventure that will follow. You cannot remain static because life is not static. You have to move out and show the world what stuff you are made of. Make a difference where others are indifferent to life&rsquo;s situation. Dare what you have not dared before in a positive way and you become the desirable.</p>
-				  <!-- Post data -->
-				  <p>by <strong>Mr. O. O. OSISANWO</strong>, Aug 23, 2019</p>
-				  <!-- Read more button -->
-				  <a class="btn btn-success btn-md" href="../posts/dare-to-stand-out-02.html"
-					>Read more</a
-				  >
-				</div>
-				<!-- Grid column -->
-			  </div>
-			  <!-- Grid row -->
-			  <hr class="my-5" />
-		
-			  <!-- Grid row -->
-			  <div class="row">
-				<!-- Grid column -->
-				<div class="col-lg-5">
-				  <!-- Featured image -->
-				  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-					<img
-					  class="img-fluid"
-					  src="./../images/events pictures/IMG_20181130_110406_1.jpg"
-					  alt="Sample image"
-					/>
-					<a>
-					  <div class="mask rgba-white-slight"></div>
-					</a>
-				  </div>
-				</div>
-				<!-- Grid column -->
-		
-				<!-- Grid column -->
-				<div class="col-lg-7">
-				  <!-- Category -->
-				  <a href="#!" class="green-text">
-					<h6 class="font-weight-bold mb-3">
-					  <i class="fa fa-pencil pr-2"></i>Speech
-					</h6>
-				  </a>
-				  <!-- Post title -->
-				  <h3 class="font-weight-bold mb-3">
-					<strong
-					  >MAKE A DIFFERENCE BY BEING DIFFERENT: DARE TO STAND OUT</strong
-					>
-				  </h3>
-				  <!-- Excerpt -->
-				  <p>
-						What has a beginning must definitely end at a particular season. And so the SS3 students of Omolaja Sodipo Memorial Anglican School have accomplished their academic goal and have become graduating students of the 2018/2019 academic session. I am using this medium to congratulate you for your perseverance and dedication to your studies which has earned you this singular honor to move further in life to greater heights and more academic attainment. My charge to you as you are graduating this year is to “Make a difference by being different: dare to stand out”.
-				  </p>
-				  <!-- Post data -->
-				  <p>by <strong>Mrs. Shogunle F.O</strong>, , Aug 23, 2019</p>
-				  <!-- Read more button -->
-				  <a class="btn btn-success btn-md" href="../posts/dare-to-stand-out-03.html"
-					>Read more</a
-				  >
-				</div>
-				<!-- Grid column -->
-			  </div>
-			  <!-- Grid row -->
-			  <hr class="my-5" />
-			  <!-- Grid row -->
-			  <div class="row">
-				<!-- Grid column -->
-				<div class="col-lg-5">
-				  <!-- Featured image -->
-				  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-					<img
-					  class="img-fluid"
-					  src="./../images/events pictures/IMG_20190117_120141_5.jpg"
-					  alt="Sample image"
-					/>
-					<a>
-					  <div class="mask rgba-white-slight"></div>
-					</a>
-				  </div>
-				</div>
-				<!-- Grid column -->
-		
-				<!-- Grid column -->
-				<div class="col-lg-7">
-				  <!-- Category -->
-				  <a href="#!" class="green-text">
-					<h6 class="font-weight-bold mb-3">
-					  <i class="fa fa-pencil pr-2"></i>Speech
-					</h6>
-				  </a>
-				  <!-- Post title -->
-				  <h3 class="font-weight-bold mb-3">
-					<strong
-					  >A GOODWILL  MESSAGE FROM THE BISHOP</strong
-					>
-				  </h3>
-				  <!-- Excerpt -->
-				  <p>We congratulate each of you, SS3 Graduating Students of OSMAS in a very special way on this joyful occasion of realizing, your dream of successful completion of your academic pursuit in this great citadel of learning. We also rejoice with your respective parents and guardians for witnessing the occasion. With gratitude to God, for the grace of the accomplishment in your lives, we pray God to grant you long life with good health and you will achieve more successes in all your future endeavors.</p>
-									   
-				  <!-- Post data -->
-				  <p>by <strong>Rt. Revd. Dr. E. O. Adekunle</strong>, Aug 23, 2019</p>
-				  <!-- Read more button -->
-				  <a class="btn btn-success btn-md" href="../posts/bishop-message-04.html"
-					>Read more</a
-				  >
-				</div>
-				<!-- Grid column -->
-			  </div>
-			  <!-- Grid row -->
-			  <hr class="my-5" />
-			  <div class="read-more">
-			  <a class="btn btn-danger btn-md " href="./Pages/blog.html"
-			  >Read more Posts</a></div>
-</section>
-	
-<section name='gallery'>
-		<div class="container">
-	
-				<div class="feature">
-					<figure class="featured-item image-holder r-3-2 transition"></figure>
-				</div>
-				
-				<div class="gallery-wrapper">
-					<div class="gallery">
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 active transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-							<div class="item-wrapper">
-								<figure class="gallery-item image-holder r-3-2 transition"></figure>
-							</div>
-					</div>
-				</div>
-				
-				<div class="controls">
-					<button class="move-btn left">&larr;</button>
-					<button class="move-btn right">&rarr;</button>
-				</div>
-			</div>
-
-</section>
-<hr class="mb-5">
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-	<script>
-			function myFunction() {
-			  var x = document.getElementById("myTopnav");
-			  if (x.className === "topnav") {
-				x.className += " responsive";
-			  } else {
-				x.className = "topnav";
-			  }
-			}
-			</script>
-
-<!--Footer-->
-    <footer class="page-footer pt-0">
-
-			<!--Footer Links-->
-			<div class="container">
-	
-				<!--First row-->
-				<div class="row">
-	
-					<!--First column-->
-					<div class="col-md-12 wow fadeIn" data-wow-delay="0.3s">
-	
-						<div class="text-center d-flex justify-content-center my-4">
-	
-							<!--Facebook-->
-							<a class="p-2 m-2 fa-lg fb-ic" href="https://web.facebook.com/Omolaja-Sodipo-Memorial-Anglican-School-137046530290788/"><i class="fa fa-facebook white-text fa-lg pr-md-4"> </i></a>
-								</div>
-	
-					</div>
-					<!--/First column-->
-	
-				</div>
-				<!--/First row-->
-	
-			</div>
-			<!--/Footer Links-->
-	
-			<!--Copyright-->
-			<div class="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.3s">
-				<div class="container-fluid">
-					© 2019 Copyright: <a href="https://osmas.com.ng" target="_blank"> osmas.com.ng </a>
-				</div>
-			</div>
-			<!--/.Copyright-->
-	
-		</footer>
-		<!--/Footer-->
-	
-		<!--  SCRIPTS  -->
-		<!-- JQuery -->
-		<script type="text/javascript" src="../Pages/js/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="../Pages/js/main.js"></script>
-		<!-- Bootstrap tooltips -->
-		<script type="text/javascript" src="../Pages/js/popper.min.js"></script>
-		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="../Pages/js/bootstrap.min.js"></script>
-		<!-- MDB core JavaScript -->
-		<script type="text/javascript" src="../Pages/js/mdb.min.js"></script>
-		<script>
-			new WOW().init();
-		</script>
-		<script>
-				var gallery = document.querySelector('.gallery');
-		var galleryItems = document.querySelectorAll('.gallery-item');
-		var numOfItems = gallery.children.length;
-		var itemWidth = 23; // percent: as set in css
-		
-		var featured = document.querySelector('.featured-item');
-		
-		var leftBtn = document.querySelector('.move-btn.left');
-		var rightBtn = document.querySelector('.move-btn.right');
-		var leftInterval;
-		var rightInterval;
-		
-		var scrollRate = 0.2;
-		var left;
-		
-		function selectItem(e) {
-			if (e.target.classList.contains('active')) return;
-			
-			featured.style.backgroundImage = e.target.style.backgroundImage;
-			
-			for (var i = 0; i < galleryItems.length; i++) {
-				if (galleryItems[i].classList.contains('active'))
-					galleryItems[i].classList.remove('active');
-			}
-			
-			e.target.classList.add('active');
-		}
-		
-		function galleryWrapLeft() {
-			var first = gallery.children[0];
-			gallery.removeChild(first);
-			gallery.style.left = -itemWidth + '%';
-			gallery.appendChild(first);
-			gallery.style.left = '0%';
-		}
-		
-		function galleryWrapRight() {
-			var last = gallery.children[gallery.children.length - 1];
-			gallery.removeChild(last);
-			gallery.insertBefore(last, gallery.children[0]);
-			gallery.style.left = '-23%';
-		}
-		
-		function moveLeft() {
-			left = left || 0;
-		
-			leftInterval = setInterval(function() {
-				gallery.style.left = left + '%';
-		
-				if (left > -itemWidth) {
-					left -= scrollRate;
-				} else {
-					left = 0;
-					galleryWrapLeft();
-				}
-			}, 1);
-		}
-		
-		function moveRight() {
-			//Make sure there is element to the leftd
-			if (left > -itemWidth && left < 0) {
-				left = left  - itemWidth;
-				
-				var last = gallery.children[gallery.children.length - 1];
-				gallery.removeChild(last);
-				gallery.style.left = left + '%';
-				gallery.insertBefore(last, gallery.children[0]);	
-			}
-			
-			left = left || 0;
-		
-			leftInterval = setInterval(function() {
-				gallery.style.left = left + '%';
-		
-				if (left < 0) {
-					left += scrollRate;
-				} else {
-					left = -itemWidth;
-					galleryWrapRight();
-				}
-			}, 1);
-		}
-		
-		function stopMovement() {
-			clearInterval(leftInterval);
-			clearInterval(rightInterval);
-		}
-		
-		leftBtn.addEventListener('mouseenter', moveLeft);
-		leftBtn.addEventListener('mouseleave', stopMovement);
-		rightBtn.addEventListener('mouseenter', moveRight);
-		rightBtn.addEventListener('mouseleave', stopMovement);
 		
 		
-		//Start this baby up
-		(function init() {
-			var images = [			
-			'https://osmas.com.ng/images/events%20pictures/events-001.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-002.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-003.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-004.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-005.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-006.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-007.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-008.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-009.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-010.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-011.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-012.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-013.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-014.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-015.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-016.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-017.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-018.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-019.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-020.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-021.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-022.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-023.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-024.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-025.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-026.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-027.jpg',	
-'https://osmas.com.ng/images/events%20pictures/events-028.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-029.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-030.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-031.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-032.jpg',
-				'https://osmas.com.ng/images/events%20pictures/events-033.jpg',	
-
-
-];
-			
-			//Set Initial Featured Image
-			featured.style.backgroundImage = 'url(' + images[0] + ')';
-			
-			//Set Images for Gallery and Add Event Listeners
-			for (var i = 0; i < galleryItems.length; i++) {
-				galleryItems[i].style.backgroundImage = 'url(' + images[i] + ')';
-				galleryItems[i].addEventListener('click', selectItem);
-			}
-		})();
-				</script>
-	</body>
-	</html>
+    </body>
+</html>
